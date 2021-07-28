@@ -1,0 +1,60 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class MultiCalculator {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Choose A Calculator Mode");
+        System.out.println("1 : Addition , 2 : Subtraction , 3 : Multiplication , 4 : Division");
+
+        int option = sc.nextInt();
+        switch (option) {
+          
+case 1: System.out.println("Addition Calculator");
+        System.out.println("Enter First Number");
+        int firstNumber1 = sc.nextInt();
+        System.out.println("( + ) Enter Second Number");
+        int secondNumber1 = sc.nextInt();
+        int result1 = firstNumber1 + secondNumber1;
+        System.out.println("Result = " + result1);
+        System.out.println("Made by Hzy :)");
+        System.exit(1);
+			
+case 2: System.out.println("Subtraction Calculator");
+        System.out.println("Enter First Number");
+        int firstNumber2 = sc.nextInt();
+        System.out.println("( - ) Enter Second Number");
+        int secondNumber2 = sc.nextInt();
+        int result2 = firstNumber2 - secondNumber2;
+        System.out.println("Result = " + result2);
+        System.out.println("Made by Hzy :)");
+        System.exit(1);
+         
+case 3: System.out.println("Multiplication Calculator");
+        System.out.println("Enter First Number");
+        int firstNumber3 = sc.nextInt();
+        System.out.println("( * ) Enter Second Number");
+        int secondNumber3 = sc.nextInt();
+        int result3 = firstNumber3 * secondNumber3;
+        System.out.println("Result = " + result3);
+        System.out.println("Made by Hzy :)");
+        System.exit(1);
+         
+case 4: System.out.println("Division Calculator");
+        System.out.println("Enter First Number");
+        int firstNumber4 = sc.nextInt();
+        System.out.println("( / ) Enter Second Number");
+        int secondNumber4 = sc.nextInt();
+        int result4 = firstNumber4 % secondNumber4;
+        System.out.println("Result = " + result4);
+        System.out.println("Made by Hzy :)");
+        System.exit(1);
+        
+default: System.out.println("Invalid Mode");
+        System.out.println("Made by Hzy :)");
+        System.exit(1);
+
+        }
+    }
+    
+}
