@@ -45,8 +45,9 @@ case 4: System.out.println("Division Calculator");
         int firstNumber4 = sc.nextInt();
         System.out.println("( / ) Enter Second Number");
         int secondNumber4 = sc.nextInt();
-        int result4 = firstNumber4 % secondNumber4;
-        System.out.println("Result = " + result4);
+        int result4 = firstNumber4 / secondNumber4;
+        int result5 = firstNumber4 % secondNumber4;
+        System.out.println("Result = " + result4 + " R" +  result5);
         System.out.println("Made by Hzy :)");
         System.exit(1);
         
@@ -56,5 +57,4 @@ default: System.out.println("Invalid Mode");
 
         }
     }
-    
 }
