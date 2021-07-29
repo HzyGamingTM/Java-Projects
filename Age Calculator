@@ -1,0 +1,27 @@
+package com.company;
+import java.util.Scanner;
+public class asd {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Please Enter Your Birth Year, Month And Days");
+        int Age = sc.nextInt();
+        int Month = sc.nextInt();
+        int day = sc.nextInt();
+            int AgeCalculate = 2021 - Age;
+            int MonthCalculate = 7 - Month;
+            int DayCalculate = 17 - day;
+                if (AgeCalculate <= 13) {
+                        System.out.println("You are underaged.");
+                        }
+                    if (AgeCalculate >150) {
+                        System.out.println("You Liar Lmao");
+                        }
+                    if (AgeCalculate <0) {
+                        System.out.println("Imagine not being born yet");
+                        }
+                    else
+                    {   System.out.println("Your age is : " + AgeCalculate + " Years, " + MonthCalculate + " Months, "
+                    + day + " Days");    }
+    }
+}
